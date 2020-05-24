@@ -1,0 +1,16 @@
+.container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+button{
+    background-image: linear-gradient(to bottom, blue , cyan);
+    color: white;
+}
+
+.botones{
+    text-align: center;
+}
+
+td{
+    padding: 10px;
+}

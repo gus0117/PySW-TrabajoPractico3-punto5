@@ -1,0 +1,49 @@
+header{
+    background-color: #211a12;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+/*logo*/
+#header-logo{
+    display: flex;
+}
+
+#header-logo img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#header-logo div h1, h5{
+    margin-left: 10px;
+}
+/*Texto a la derecha del logo*/
+h4{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    size: 16px;
+}
+
+/*Menu*/
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin:20px 20px 2px 0px;
+    padding-top: 20px;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+}
+
+header nav ul li a{
+    color:white;
+}
+header nav ul li a:link{
+    text-decoration: none;
+    vertical-align: middle;
+}

@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+/* CARDS */
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    height: 40%;
+    background-color: lavender;
+    padding: 10px;
+}
+.card{
+    width: 20%;
+    height: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.card img{
+    width: 30px;
+    height: 30px;
+    margin-left: 40%;
+}
+.card a{
+    border-radius: 5px;
+    background-color: #211a12;
+    color:white;
+    padding: 10px 25px;
+}
+
+.card a:link{
+    text-decoration: none;
+}
